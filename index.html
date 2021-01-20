@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Kartik" />
-        <meta name="email" content="kartikkrishnasharmaa@gmail.com" />
+        <meta name="author" content="Mironcoder" />
+        <meta name="email" content="mironcoder@gmail.com" />
+        <meta name="profile" content="https://themeforest.net/user/mironcoder" />
         <meta name="name" content="Portlab" />
         <meta name="type" content="Personal Portfolio" />
-        <meta name="title" content="Kartik Sharma - Portfolio" />
+        <meta name="title" content="Portlab - Personal Portfolio Bootstrap HTML Template" />
         <meta name="keywords" content="portlab, portfolio, personal, html, template, bootstrap, bussiness, clean, creative, resume, cv, designer, responsive, minimal, freelancer" />
         <title>Kartik Sharma - Resume</title>
         <link rel="icon" href="favicon.ico" />
@@ -16,7 +17,7 @@
         <link rel="stylesheet" href="bootstrap.min.css" />
         <link rel="stylesheet" href="main.css" />
         <link rel="stylesheet" href="index.css" />
-	 <link rel="stylesheet" href="flaticon.css" />
+        <link rel="stylesheet" href="flaticon.css" />
     </head>
     <body>
         <a class="back2top-btn" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
@@ -31,7 +32,7 @@
         <section class="banner-part">
             <div class="banner-bg">
                 <div class="container">
-                    <img class="circle-shape" src="circle.png" alt="circle-shape" /><img class="star-shape" src="star-shape.png" alt="star-shape" />
+                    <img class="circle-shape" src="images/circle.png" alt="circle-shape" /><img class="star-shape" src="star-shape.png" alt="star-shape" />
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="banner-img"><img src="banner-hero.png" alt="banner-hero" /></div>
@@ -63,14 +64,45 @@
                 </div>
             </div>
         </section>
-		        <section class="section about-part cate-active">
+		       
+        <section class="section resume-part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <p>My <span>Resume</span></p>
+                            <h2>Some basic information about myself</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="resume-cate-btn">
+                            <li>
+                                <button class="cate-btn active" onclick="filter('about-part')"><i class="fas fa-user"></i><span>About me</span></button>
+                            </li>
+                            <li>
+                                <button class="cate-btn" onclick="filter('exper-part')"><i class="fas fa-user-tie"></i><span>Experience</span></button>
+                            </li>
+                            <li>
+                                <button class="cate-btn" onclick="filter('edu-part')"><i class="fas fa-user-graduate"></i><span>Education</span></button>
+                            </li>
+                            <li>
+                                <button class="cate-btn" onclick="filter('refer-part')"><i class="fas fa-certificate"></i><span>Certificate</span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <section class="section about-part cate-active">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="about-summery">
                             <h3>I'm Kartik Sharma</h3>
                             <p>I'm a Full stack web developer with professional experience building efficient and scalable web apps. I love building Web Apps and I am continuously improving my skillsets.</p>
-			<p>On a daily basis, I work on complex front-end projects with up-to-date languages and technologies. While I enjoy experimenting with new frameworks and libraries, I understand the importance of placing focus on the end goal: delivering a beautiful, functional product to the user/client.</p><br/>
+							<p>On a daily basis, I work on complex front-end projects with up-to-date languages and technologies. While I enjoy experimenting with new frameworks and libraries, I understand the importance of placing focus on the end goal: delivering a beautiful, functional product to the user/client.</p><br/>
                               <p>Despite of work, I am a coffee lover and Gym lover. I loves to connect with new people, having meaningful conversations and sharing life experiences and ideas</p>
                         </div>
                         <div class="about-list">
@@ -85,7 +117,7 @@
                                 </li>
                                 <li>
                                     <h6>Website:</h6>
-					<a href="https://kartikkrishnasharmaa.github.io/portfolio/"><p>Kartiksharma.github</p></a>
+                                    <a href="https://kartikkrishnasharmaa.github.io/portfolio/"><p>Kartiksharma.github</p></a>
                                 </li>
                             </ul>
                             <ul>
@@ -102,88 +134,19 @@
                 </div>
             </div>
         </section>
-        <section class="section resume-part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-heading">
-                            <p>my <span>resume</span></p>
-                            <h2>Some basic information about myself</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="resume-cate-btn">
-                            <li>
-                                <button class="cate-btn active" onclick="filter('about-part')"><i class="fas fa-user"></i><span>about me</span></button>
-                            </li>
-                            <li>
-                                <button class="cate-btn" onclick="filter('exper-part')"><i class="fas fa-user-tie"></i><span>experience</span></button>
-                            </li>
-                            <li>
-                                <button class="cate-btn" onclick="filter('edu-part')"><i class="fas fa-user-graduate"></i><span>education</span></button>
-                            </li>
-                            <li>
-                                <button class="cate-btn" onclick="filter('refer-part')"><i class="fas fa-users"></i><span>reference</span></button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="section exper-part cate-active">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
                         <div class="resume-card">
-                            <span class="flaticon-medal"></span>
-                            <h4>Feb 2016 - Dec 2017</h4>
+                            <h4>June 2019 - Present</h4>
                             <ul>
-                                <li><i class="flaticon-deadline"></i></li>
+                                <li><i class="fa fa-graduation-cap"></i></li>
                                 <li>
-                                    <h5>Frontend Developer</h5>
-                                    <h6>Creative-It Institute</h6>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="resume-card">
-                            <span class="flaticon-medal"></span>
-                            <h4>Feb 2017 - Dec 2018</h4>
-                            <ul>
-                                <li><i class="flaticon-deadline"></i></li>
-                                <li>
-                                    <h5>Frontend Developer</h5>
-                                    <h6>Ingenious-hub Team</h6>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="resume-card">
-                            <span class="flaticon-medal"></span>
-                            <h4>Feb 2018 - Dec 2019</h4>
-                            <ul>
-                                <li><i class="flaticon-deadline"></i></li>
-                                <li>
-                                    <h5>Frontend Developer</h5>
-                                    <h6>Icon-Infotech Limited</h6>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="resume-card">
-                            <span class="flaticon-medal"></span>
-                            <h4>Feb 2019 - Dec 2020</h4>
-                            <ul>
-                                <li><i class="flaticon-deadline"></i></li>
-                                <li>
-                                    <h5>Frontend Developer</h5>
-                                    <h6>Xpeedstudio</h6>
+                                    <h5><a href="http://www.modyuniversity.ac.in/">Mody University of Science and Technology</a></h5>
+                                    <h6>Computer Lab Assistant- Computer Science Department</h6>
+									<br/>
+									<h6>( Girls University in Laxmangarh, Sikar )</h6>
                                 </li>
                             </ul>
                         </div>
@@ -196,52 +159,52 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
                         <div class="resume-card">
-                            <span class="flaticon-graduation-cap"></span>
-                            <h4>apr 2017 - Running</h4>
+                            <span class="fa fa-graduation-cap"></span>
+                            <h4>Pursuing</h4>
                             <ul>
-                                <li><i class="flaticon-deadline"></i></li>
+                                <li><i class="fa fa-code"></i></li>
                                 <li>
-                                    <h5>B.S.S Honourse at Economics</h5>
-                                    <h6>Government Tolaram college, Narayanganj</h6>
+                                    <h5>Master in Computer Application</h5>
+                                    <h6>Shekhawati Group Of Institution Sikar</h6>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="resume-card">
-                            <span class="flaticon-graduation-cap"></span>
-                            <h4>jan 2015 - feb 2017</h4>
+                            <span class="fa fa-graduation-cap"></span>
+                            <h4>2017</h4>
                             <ul>
-                                <li><i class="flaticon-deadline"></i></li>
+                                <li><i class="fa fa-code"></i></li>
                                 <li>
-                                    <h5>Alim / H.S.C - GPA :4.57</h5>
-                                    <h6>Government Madrasha-E Alia, Dhaka</h6>
+                                    <h5>Bachelor of Computer Application</h5>
+                                    <h6>Shri Balaji College, Sikar</h6>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="resume-card">
-                            <span class="flaticon-graduation-cap"></span>
-                            <h4>jan 2013 - dec 2015</h4>
+                            <span class="fa fa-book"></span>
+                            <h4>2015</h4>
                             <ul>
-                                <li><i class="flaticon-deadline"></i></li>
+                                <li><i class="fa fa-book"></i></li>
                                 <li>
-                                    <h5>Dakhil / S.S.C - GPA :450</h5>
-                                    <h6>Islami Mission Kamil Madrasha</h6>
+                                    <h5>Senior Secondary Education</h5>
+                                    <h6>Rajasthan Board Of Secondary Education</h6>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="resume-card">
-                            <span class="flaticon-graduation-cap"></span>
-                            <h4>jan 2011 - dec 2013</h4>
+                            <span class="fa fa-book"></span>
+                            <h4>2013</h4>
                             <ul>
-                                <li><i class="flaticon-deadline"></i></li>
+                                <li><i class="fa fa-book"></i></li>
                                 <li>
-                                    <h5>J.D.C / J.S.C - GPA :467</h5>
-                                    <h6>Badarpur Senior Alim Madrasha</h6>
+                                    <h5>Secondary Education</h5>
+                                    <h6>Rajasthan Board Of Secondary Education</h6>
                                 </li>
                             </ul>
                         </div>
@@ -254,16 +217,12 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="refer-card">
-                            <div class="refer-img"><img src="img/refer-1.jpg" alt="refer-1" /></div>
                             <div class="refer-content">
-                                <h4>Maccelam Bond</h4>
-                                <p>Sr. Ux / Ui Designer <span>at Creative It Institute</span></p>
+                                <h4>Ethical Hacking and Cyber Security Course</h4>
+                                <p>Udemy</span></p>
                                 <ul class="refer-contact">
                                     <li>
-                                        <a class="icon icon-inline" href="#"><i class="fas fa-phone-alt"></i></a>
-                                    </li>
-                                    <li>
-                                        <a class="icon icon-inline" href="#"><i class="fas fa-envelope"></i></a>
+                                        <a class="icon icon-inline" target="_blank" href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6d5ba8fe-6d5d-4d59-bb3c-b5030d2f0e5c.pdf"><i class="fas fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -271,16 +230,12 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="refer-card">
-                            <div class="refer-img"><img src="img/refer-2.jpg" alt="refer-2" /></div>
                             <div class="refer-content">
-                                <h4>Lady Watsona</h4>
-                                <p>Deputy Manager <span>at Icon Infotech LTD</span></p>
+                                <h4>Complete front end web developer Bootcamp - 14 projects</h4>
+                                <p>Learn Code Online.in</span></p>
                                 <ul class="refer-contact">
                                     <li>
-                                        <a class="icon icon-inline" href="#"><i class="fas fa-phone-alt"></i></a>
-                                    </li>
-                                    <li>
-                                        <a class="icon icon-inline" href="#"><i class="fas fa-envelope"></i></a>
+                                        <a class="icon icon-inline" target="_blank" href="https://courses.learncodeonline.in/learn/certificate/1363824-11931"><i class="fas fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -302,38 +257,45 @@
                     <div class="col-lg-12">
                         <div class="port-slider">
                             <div class="port-card">
-                                <div class="port-img"><img src="img/port-1.jpg" alt="port-1" /></div>
+                                <div class="port-img"><img src="project-1.jpg" alt="project-1" /></div>
                                 <div class="port-oly">
-                                    <div class="port-btn"><a class="btn btn-inline" href="#">live preview</a><a class="btn btn-inline" href="#">view details</a></div>
-                                    <div class="port-text"><h6>Corporate website</h6></div>
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://www.codingtutorials.in/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>Programming Tutorials</h6></div>
                                 </div>
                             </div>
                             <div class="port-card">
-                                <div class="port-img"><img src="img/port-2.jpg" alt="port-2" /></div>
+                                <div class="port-img"><img src="project-2.jpg" alt="project-2" /></div>
                                 <div class="port-oly">
-                                    <div class="port-btn"><a class="btn btn-inline" href="#">live preview</a><a class="btn btn-inline" href="#">view details</a></div>
-                                    <div class="port-text"><h6>App landing page</h6></div>
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://shoppingchoice.in/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>E-Commerce Website</h6></div>
                                 </div>
                             </div>
                             <div class="port-card">
-                                <div class="port-img"><img src="img/port-3.jpg" alt="port-3" /></div>
+                                <div class="port-img"><img src="project-3.jpg" alt="port-3" /></div>
                                 <div class="port-oly">
-                                    <div class="port-btn"><a class="btn btn-inline" href="#">live preview</a><a class="btn btn-inline" href="#">view details</a></div>
-                                    <div class="port-text"><h6>Job marketplace</h6></div>
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://codingtutorialsblog.in/blog/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>Coding Tutorials Blog</h6></div>
                                 </div>
                             </div>
                             <div class="port-card">
-                                <div class="port-img"><img src="img/port-4.jpg" alt="port-4" /></div>
+                                <div class="port-img"><img src="colorpicker.jpg" alt="port-4" /></div>
                                 <div class="port-oly">
-                                    <div class="port-btn"><a class="btn btn-inline" href="#">live preview</a><a class="btn btn-inline" href="#">view details</a></div>
-                                    <div class="port-text"><h6>creative agency</h6></div>
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://kartikuicolorpicker.netlify.app/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>UI Color Picker</h6></div>
                                 </div>
                             </div>
                             <div class="port-card">
-                                <div class="port-img"><img src="img/port-5.jpg" alt="port-5" /></div>
+                                <div class="port-img"><img src="todo.jpg" alt="project 5" /></div>
                                 <div class="port-oly">
-                                    <div class="port-btn"><a class="btn btn-inline" href="#">live preview</a><a class="btn btn-inline" href="#">view details</a></div>
-                                    <div class="port-text"><h6>FM radio station</h6></div>
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://kartik-todo-web-app.netlify.app/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>To Do App</h6></div>
+                                </div>
+                            </div>
+							  <div class="port-card">
+                                <div class="port-img"><img src="search.jpg" alt="project 6" /></div>
+                                <div class="port-oly">
+                                    <div class="port-btn"><a class="btn btn-inline" href="https://searchgallery.netlify.app/">live preview</a><a class="btn btn-inline" href="projectDetails.html">view details</a></div>
+                                    <div class="port-text"><h6>Search Gallery</h6></div>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +304,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="port-show-btn">
-                            <a class="btn btn-inline" href="#"><i class="far fa-eye"></i><span>show more</span></a>
+                            <a class="btn btn-inline" href="projectDetails.html"><i class="far fa-eye"></i><span>show more</span></a>
                         </div>
                     </div>
                 </div>
@@ -400,6 +362,24 @@
                             <div class="skills-name"><p>github</p></div>
                         </div>
                     </div>
+					 <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="skills-card">
+                            <div class="skills-img"><img src="aspnet.png" alt="aspnet" /></div>
+                            <div class="skills-name"><p>Asp.Net</p></div>
+                        </div>
+                    </div>
+					 <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="skills-card">
+                            <div class="skills-img"><img src="sql.jpg" alt="sql" /></div>
+                            <div class="skills-name"><p>SQL</p></div>
+                        </div>
+                    </div>
+					 <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="skills-card">
+                            <div class="skills-img"><img src="c-sharp.png" alt="c sharp" /></div>
+                            <div class="skills-name"><p>C#</p></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -430,7 +410,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-heading">
-                            <p>Contact <span>me</span></p>
+                            <p>contact <span>me</span></p>
                         </div>
                     </div>
                 </div>
@@ -439,7 +419,7 @@
                         <div class="contact-address">
                             <div class="address-icon"><i class="fa fa-phone"></i></div>
                             <div class="address-text">
-                                <h4>Phone</h4>
+                                <h4>phone</h4>
                                 <p> 8302286091</span></p>
                             </div>
                         </div>
@@ -458,7 +438,7 @@
                             <div class="address-icon"><i class="fa fa-home"></i></div>
                             <div class="address-text">
                                 <h4>Location</h4>
-                                <p>Sikar, Rajasthan</span></p>
+                                <p>Sikar,Rajasthan</span></p>
                             </div>
                         </div>
                     </div>
@@ -499,8 +479,15 @@
                 </div>
             </div>
         </section>
-		<script src="js/jquery.3.2.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/popper.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/bootstrap.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/slick.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/custom/slick.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/counterup.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/vendor/waypoints.min.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/custom/counterup.js"></script>
+		<script src="https://mironmahmud.com/portlab/assets/js/custom/main.js"></script>
 
     </body>
 </html>
